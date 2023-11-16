@@ -1,5 +1,5 @@
-let xp = 4050;
-let nivel = "Nada";
+let xp = 0;
+let nivel = " ";
 let nomeDoHeroi = "Davi";
 
 if (xp <= 1000) {
@@ -15,8 +15,8 @@ if (xp <= 1000) {
 } else if (xp > 8000 && xp <= 9000) {
     nivel = "Ascendente";
 } else if (xp > 9000 && xp <= 10000) {
-    nivel = "Imortal"
+    nivel = "Imortal";
 } else if (xp >= 10001) {
     nivel = "Radiante";
 }
-console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivel)
+console.log("O Herói de nome " + nomeDoHeroi + " está no nível de " + nivel);
